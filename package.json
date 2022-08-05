@@ -1,0 +1,37 @@
+{
+  "name": "fitness-tracker-p",
+  "description": "An app to track my fitness journey",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "connect-mongodb-session": "^3.1.1",
+    "dotenv": "^16.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.5.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MajestryD/fitness-tracker-p.git"
+  },
+  "keywords": [
+    "Fitness",
+    "Express",
+    "Heroku",
+    "MongoDB"
+  ],
+  "author": "MajestryD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MajestryD/fitness-tracker-p/issues"
+  },
+  "homepage": "https://github.com/MajestryD/fitness-tracker-p#readme"
+}
